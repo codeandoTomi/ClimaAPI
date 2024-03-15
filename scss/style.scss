@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0bdaed;
+}  
+
+h1{
+    background-color: #23afce;
+    padding: 15px;
+}
+main{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background: linear-gradient(to left, #19b8c0, #84e5db,#0bdaed);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+    .desdeJS{
+
+        .pDesdeJS{
+            font-size: 65px;
+            font-weight: 700;
+            padding: 8px;
+        }
+        .pDesdeJSM{
+            font-size: 25px;
+            font-weight: 700;
+        }
+        .divDesdeJS{
+            padding: 8px;
+            background-color: #18d2db;
+            border-radius: 2px;
+        }
+    }
+    
+
+    .UI{
+        display: flex;
+        flex-direction: column;
+
+        input,select,button{
+            padding: 7px;
+            margin: 10px;
+            font-size: 21px;
+            background-color: #70766f;
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px rgb(113, 102, 102);
+        }
+        input::placeholder{
+            color: #000000;
+        }
+        select{
+
+            option{
+                margin: 5px;
+                padding: 15px;
+            }
+        }
+        button{
+            background-color: yellow;
+            box-shadow: 5px 5px 5px rgb(189, 160, 105);
+            font-weight: 700;
+        }
+    }
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #333;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
